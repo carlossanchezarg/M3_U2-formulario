@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Modulo 3-TP2  Autor:H. C. Sanchez-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stilo.css">
     ​<title>Formulario</title>
 ​</head>
 ​<body>
+    <h2>Formulario de registro</h2>
 ​<form method="POST" action="/form">
         <ul>
          <li>
            <label for="nombre">Nombre:</label>
-           <input type="text" id="nombre" name="nombre" />
+           <input type="text" id="nombre" name="nombre" placeholder="nombre"/>
          </li>
          <li>
            <label for="Apellido">Apellido:</label>
-           <input type="text" id="apellido" name="apellido" />
+           <input type="text" id="apellido" name="apellido" placeholder="apellido"/>
          </li>
          <li>
             <label for="Edad">Edad:</label>
-            <input type="text" id="edad" name="edad" />
+            <input type="number" id="edad" name="edad" placeholder=""/>
          </li>
         <li>
             <label for="Celular">Tel. Celular:</label>
-            <input type="text" id="celular" name="celular"/>
+            <input type="text" id="celular" name="celular" placeholder="(011) xxxx-xxxx"/>
         </li>
         <li>
-            <label for="origen">Pais de origen:</label>
-            <input type="text" id="origen" name="origen"/>
+            <label for="origen">País de nacimiento:</label>
+            <input type="text" id="origen" name="origen" placeholder="Ej:Argentina"/>
         </li>
         <li>
-            <label for="residencia">Pais de residencia:</label>
-            <input type="text" id="residencia" name="residencia"/>
+            <label for="residencia">País de residencia:</label>
+            <input type="text" id="residencia" name="residencia" placeholder="Ej:Argentina"/>
         </li>
         <li class="boton">
             <button type="submit">Registrarse</button>

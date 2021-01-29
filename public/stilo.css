@@ -1,5 +1,13 @@
+h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: rgb(5, 10, 7);
+}
+
 form {
-  /* Center the form on the page */
+  /* Centra el formulario en la pagina */
+  background-color: lightslategrey;
   margin: 0 auto;
   width: 500px;
   /* Form outline */
@@ -19,7 +27,7 @@ form li + li {
 }
 
 label {
-  /* Uniform size & alignment */
+  /* Tamaño y alineacion uniforme */
   display: inline-block;
   width: 90px;
   text-align: right;
@@ -27,15 +35,15 @@ label {
 
 input,
 textarea {
-  /* To make sure that all text fields have the same font settings
+  /* Todos los campos de texto tienen los mismos settings para las fuentes.
      By default, textareas have a monospace font */
   font: 1em sans-serif;
 
-  /* Uniform text field size */
+  /* Tamaño de los campos de texto uniforme */
   width: 300px;
   box-sizing: border-box;
 
-  /* Match form field borders */
+  /* emparejo bordes en campo de texto */
   border: 1px solid #999;
 }
 
