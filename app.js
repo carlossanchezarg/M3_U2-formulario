@@ -17,6 +17,7 @@ app.post("/form",(req,res)=>{
 });
 
 
-app.listen(3000,()=>{
-    console.log("app escuchando en el puerto 3000");
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`app escuchando en el puerto ${ PORT }`);
 });
