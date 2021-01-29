@@ -1,4 +1,4 @@
-# Modulo 3 - TP 2
+# Modulo 3 - TP 2: Formulario de registro usando _Node_ y _Express_
 ### Para probar la aplicación sin instalar:  [https://desolate-gorge-47092.herokuapp.com/](https://desolate-gorge-47092.herokuapp.com/)
 ### Intrucciones de intalación:
 1. Descargar en un zip los archivos de repositorio.
